@@ -1,10 +1,8 @@
-# GridPulse - Cloud-Native Energy Transition Analytics Pipeline
+# GridPulse - Cloud Native Energy Transition Analytics Pipeline
 
 An end to end cloud data engineering and analytics project tracking global electricity generation, demand, and the renewable energy transition built to mirror the kind of data platform work performed at a regional electric utility.
 
-
-
----
+<img width="3200" height="2000" alt="GridPulse Overview 2" src="https://github.com/user-attachments/assets/72dc474b-cd36-4ee2-8ec5-91108f0452e9" />
 
 ## Why This Project
 
@@ -49,7 +47,7 @@ One AWS service was deliberately chosen per pipeline stage to keep the architect
 | Transformation | AWS Glue (Spark) | Serverless distributed processing, no cluster to manage |
 | Cataloging | AWS Glue Data Catalog | Makes curated data queryable without manual schema work |
 | Query layer | Amazon Athena | Serverless SQL directly over S3, pay-per-query |
-| IAM | AWS IAM | Scoped roles/users per service (see `etl/iam_roles_reference.md`) |
+| IAM | AWS IAM | Scoped roles/users per service|
 | Visualization | Tableau Desktop | Live connection to Athena via JDBC |
 
 ## Data Source
