@@ -1,0 +1,14 @@
+# Credentials — never commit these
+*.pem
+*.csv.bak
+.env
+credentials.csv
+aws-access-keys*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Tableau temp/local files
+*.twbx.lock
+*.tds.bak
